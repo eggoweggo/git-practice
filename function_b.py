@@ -7,7 +7,11 @@ def silly_sum():
         the user enters 0, or
         the sum reaches or exceeds 1000
     """
-    pass
+    sum_of_user_data = 0
+    while user_data > 0 and user_data < 10:
+        user_data= input("Guess a letter: ")
+        user_data += sum_of_user_data
+    return sum_of_user_data
 
 
 if __name__ == "__main__":
