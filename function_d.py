@@ -5,6 +5,7 @@ def max_value(numbers):
     
     highest = max(numbers)
     return highest
+    print("hi")
 
 
 if __name__ == "__main__":
